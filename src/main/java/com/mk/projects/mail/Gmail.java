@@ -13,7 +13,7 @@ import javax.mail.internet.MimeMessage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Gmail implements IEmail {
+public class Gmail extends AbstractEmail {
 
 	final static Logger logger = LogManager.getLogger(Gmail.class.getName());
 	final static String username = "";
