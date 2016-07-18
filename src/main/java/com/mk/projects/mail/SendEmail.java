@@ -8,7 +8,7 @@ public class SendEmail {
 	final static Logger logger = LogManager.getLogger(SendEmail.class);
 	
 	public static void main(String[] args) {
-		IEmail mail = null;
+		AbstractEmail mail = null;
 		mail = new Gmail();
 		
 		String emailTo = "mark.kelsall@gmail.com";
